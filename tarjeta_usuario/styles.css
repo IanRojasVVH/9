@@ -218,3 +218,23 @@ body {
     height: auto; /* Mantiene la proporción de la imagen */
     margin-bottom: -30px; /* Espacio entre imágenes verticalmente */
 }
+
+/* Estilo CSS para las imágenes de Connection Request y Your Connections */
+.request-img {
+    width: 30px; /* Ajusta el tamaño de las imágenes aquí */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre imágenes */
+}
+
+/* Contenedor para cada solicitud de conexión */
+.request-item, .connection-item {
+    display: flex;           /* Flexbox para alinear imagen y texto horizontalmente */
+    align-items: center;     /* Centrar verticalmente los elementos */
+    margin-bottom: 10px;     /* Espacio entre cada solicitud de conexión */
+}
+
+.request-item p, .connection-item p {
+    margin-left: 10px;       /* Espacio entre la imagen y el texto */
+    font-size: 1rem;         /* Tamaño de fuente para el texto */
+    color: #333;             /* Color de texto */
+}
